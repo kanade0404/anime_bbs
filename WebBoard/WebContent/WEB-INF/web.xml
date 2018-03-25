@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>WebBoard</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<description></description>
+		<display-name>WebBoard</display-name>
+		<servlet-name>WebBoard</servlet-name>
+		<servlet-class>webBoard.WebBoard</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WebBoard</servlet-name>
+		<url-pattern>/WebBoard</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>DispHome</display-name>
+		<servlet-name>DispHome</servlet-name>
+		<servlet-class>webBoard.DispHome</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DispHome</servlet-name>
+		<url-pattern>/DispHome</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>DispLogin</display-name>
+		<servlet-name>DispLogin</servlet-name>
+		<servlet-class>webBoard.DispLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DispLogin</servlet-name>
+		<url-pattern>/DispLogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>DispRegister</display-name>
+		<servlet-name>DispRegister</servlet-name>
+		<servlet-class>webBoard.DispRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DispRegister</servlet-name>
+		<url-pattern>/DispRegister</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>DispThread</display-name>
+		<servlet-name>DispThread</servlet-name>
+		<servlet-class>webBoard.DispThread</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DispThread</servlet-name>
+		<url-pattern>/DispThread</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>DispRegisterForm</display-name>
+		<servlet-name>DispRegisterForm</servlet-name>
+		<servlet-class>webBoard.DispRegisterForm</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DispRegisterForm</servlet-name>
+		<url-pattern>/DispRegisterForm</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>DispWebBoard</display-name>
+		<servlet-name>DispWebBoard</servlet-name>
+		<servlet-class>webBoard.DispWebBoard</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DispWebBoard</servlet-name>
+		<url-pattern>/DispWebBoard</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>ExecuteInsert</display-name>
+		<servlet-name>ExecuteInsert</servlet-name>
+		<servlet-class>webBoard.ExecuteInsert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExecuteInsert</servlet-name>
+		<url-pattern>/ExecuteInsert</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>ExecuteEdit</display-name>
+		<servlet-name>ExecuteEdit</servlet-name>
+		<servlet-class>webBoard.ExecuteEdit</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExecuteEdit</servlet-name>
+		<url-pattern>/ExecuteEdit</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>ExecuteAllDelete</display-name>
+		<servlet-name>ExecuteAllDelete</servlet-name>
+		<servlet-class>webBoard.ExecuteAllDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExecuteAllDelete</servlet-name>
+		<url-pattern>/ExecuteAllDelete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>ExecuteLogin</display-name>
+		<servlet-name>ExecuteLogin</servlet-name>
+		<servlet-class>webBoard.ExecuteLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExecuteLogin</servlet-name>
+		<url-pattern>/ExecuteLogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>Login</display-name>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>webBoard.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>Logout</display-name>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>webBoard.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>RegisterUser</display-name>
+		<servlet-name>RegisterUser</servlet-name>
+		<servlet-class>webBoard.RegisterUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegisterUser</servlet-name>
+		<url-pattern>/RegisterUser</url-pattern>
+	</servlet-mapping>
+
+</web-app>
